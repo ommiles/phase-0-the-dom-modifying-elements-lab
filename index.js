@@ -6,5 +6,5 @@ document.body.appendChild(newHeader)
 
 newHeader.setAttribute(`id`, `victory`)
 
-const node = document.createTextNode(`Miles is the champion`)
+const node = document.createTextNode(`Miles is the champion`+`!`)
 newHeader.appendChild(node)
